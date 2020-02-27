@@ -1,0 +1,32 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">nom Client</th>
+        <th scope="col"> prenom Client</th>
+        <th scope="col">statu Client </th>
+        <th scope="col">photo Client</th>
+        <th scope="col">tele Client</th>
+        <th scope="col">mail Client</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let client of listClients">
+        <td>{{client.nomClient}}</td>
+        <td>{{client.prenomClient}}</td>
+        <td>{{client.statuClient}}</td>
+        <td><img src="{{client.photoClient}}"/> </td>
+        <td>{{client.teleClient}}</td>
+        <td>{{client.mailClient}}</td>
+        <td>
+             <a class="edit" (click)="onEdit(client)"  title="Edit" data-toggle="tooltip">
+               <i class="fa fa-edit"></i>
+              </a>
+              &nbsp;&nbsp;
+             <a class="delete" (click)="ondelete(client.id)"  title="Delete" data-toggle="tooltip">
+              <i class="fa fa-trash" aria-hidden="true"></i>
+            </a>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>

@@ -1,0 +1,38 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">libellé</th>
+        <th scope="col">libellé court</th>
+        <th scope="col">prix base </th>
+        <th scope="col">prix vente </th>
+        <th scope="col">seuil max</th>
+        <th scope="col">unité</th>
+        <th scope="col">image</th>
+        <th scope="col">Quantité en stock</th>  
+        <th scope="col">actions</th>  
+
+    </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let produit of listProduits">
+        <td>{{produit.nomProduit}}</td>
+        <td>{{produit.nomCourtProduit}}</td>
+        <td>{{produit.prixBase}}</td>
+        <td>{{produit.prixVente}}</td>
+        <td>{{produit.seuilMax}}</td>
+        <td>{{produit.uniteProduit}}</td>
+        <td><img src="{{produit.imageProduit}}"/> </td>
+        <td>{{produit.quantiteActuel}}</td>
+        <td>
+             <a class="edit" (click)="onEdit(produit)"  title="Edit" data-toggle="tooltip">
+               <i class="fa fa-edit"></i>
+              </a>
+              &nbsp;&nbsp;
+             <a class="delete" (click)="ondelete(produit.id)"  title="Delete" data-toggle="tooltip">
+              <i class="fa fa-trash" aria-hidden="true"></i>
+            </a>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>

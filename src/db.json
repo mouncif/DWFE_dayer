@@ -1,0 +1,100 @@
+{
+  "utilisateurs": [
+    {
+      "id": 1,
+      "profilUser": "admin",
+      "dateCreaUser": "2019-02_12 11:11:21",
+      "dateFinUser": "2019-92_12 11:11:21",
+      "photoUser": "assets/images/users/user-1.jpg",
+      "mailUser": "hamzadayr@gmail.com",
+      "passUser": "12345678"
+    },
+    {
+      "id": 1,
+      "profilUser": "editor",
+      "dateCreaUser": "2019-02_12 11:11:21",
+      "dateFinUser": "2019-92_12 11:11:21",
+      "photoUser": "assets/images/users/user-2.jpg",
+      "mailUser": "fouadbilbil@gmail.com",
+      "passUser": "12345678"
+    },
+    {
+      "id": 1,
+      "profilUser": "user",
+      "dateCreaUser": "2019-02_12 11:11:21",
+      "dateFinUser": "2019-92_12 11:11:21",
+      "photoUser": "assets/images/users/user-3.jpg",
+      "mailUser": "yassinchahramane@gmail.com",
+      "passUser": "12345678"
+    },
+    {
+      "id": 1,
+      "profilUser": "user",
+      "dateCreaUser": "2019-02_12 11:11:21",
+      "dateFinUser": "2019-92_12 11:11:21",
+      "photoUser": "assets/images/users/user-4.jpg",
+      "mailUser": "younesssbaii@gmail.com",
+      "passUser": "12345678"
+    },
+    {
+      "id": 4,
+      "profilUser": "user",
+      "dateCreaUser": "2019-02_12 11:11:21",
+      "dateFinUser": "2019-92_12 11:11:21",
+      "photoUser": "assets/images/users/user-5.jpg",
+      "mailUser": "khalidahmadi@gmail.com",
+      "passUser": "12345678"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "nomProduit": "Dar box  G6876",
+      "nomCourtProduit": "DarB",
+      "prixBase": "892.00",
+      "prixVente": "1100.00",
+      "seuilMax": 13,
+      "uniteProduit": "Kg",
+      "imageProduit": "assets/images/product/product-1.jpg",
+      "quantiteInitiale": 13,
+      "quantiteActuel": 8
+    },
+    {
+      "id": 2,
+      "nomProduit": "INWI NEW Router  G6876",
+      "nomCourtProduit": "inwR",
+      "prixBase": "112.00",
+      "prixVente": "190.00",
+      "seuilMax": 22,
+      "uniteProduit": "Kg",
+      "imageProduit": "assets/images/product/product-2.jpg",
+      "quantiteInitiale": 23,
+      "quantiteActuel": 10
+    },
+    {
+      "id": 3,
+      "nomProduit": "Dar box FDGS78687",
+      "nomCourtProduit": "DarB_F",
+      "prixBase": "392.00",
+      "prixVente": "700.00",
+      "seuilMax": 10,
+      "uniteProduit": "Kg",
+      "imageProduit": "assets/images/product/product-3.jpg",
+      "quantiteInitiale": 20,
+      "quantiteActuel": 18
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "nomClient": "amine",
+      "prenomClient": "akram",
+      "statuClient": "on",
+      "photoClient": "assets/images/clients/client-2.jpg",
+      "teleClient": "0689787987",
+      "mailClient": "laila@gmail.com",
+      "adressClient": "675 Kamilia ",
+      "villeClient": "rabat"
+    }
+  ]
+}
