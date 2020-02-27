@@ -55,21 +55,9 @@
       "prixVente": "1100.00",
       "seuilMax": 13,
       "uniteProduit": "Kg",
-      "imageProduit": "assets/images/product/product-1.jpg",
+      "imageProduit": "https://static.fnac-static.com/multimedia/Images/FR/MDM/cf/17/cb/13309903/1540-1/tsp20191220191608/PC-Portable-Gaming-MSI-GL65-9SD-069FR-Intel-Core-i7-15-6-8-Go-RAM-512-Go-D-Noir.jpg",
       "quantiteInitiale": 13,
       "quantiteActuel": 8
-    },
-    {
-      "id": 2,
-      "nomProduit": "INWI NEW Router  G6876",
-      "nomCourtProduit": "inwR",
-      "prixBase": "112.00",
-      "prixVente": "190.00",
-      "seuilMax": 22,
-      "uniteProduit": "Kg",
-      "imageProduit": "assets/images/product/product-2.jpg",
-      "quantiteInitiale": 23,
-      "quantiteActuel": 10
     },
     {
       "id": 3,
@@ -79,10 +67,23 @@
       "prixVente": "700.00",
       "seuilMax": 10,
       "uniteProduit": "Kg",
-      "imageProduit": "assets/images/product/product-3.jpg",
+      "imageProduit": "https://static.fnac-static.com/multimedia/Images/FR/MDM/cf/17/cb/13309903/1541-2/tsp20191220191608/PC-Portable-Gaming-MSI-GL65-9SD-069FR-Intel-Core-i7-15-6-8-Go-RAM-512-Go-D-Noir.jpg",
       "quantiteInitiale": 20,
       "quantiteActuel": 18
+    },
+    {
+      "id": 2,
+      "nomProduit": "INWI NEW Router  G6876",
+      "nomCourtProduit": "inwR",
+      "prixBase": "112.00",
+      "prixVente": "190.00",
+      "seuilMax": 22,
+      "uniteProduit": "Kg",
+      "imageProduit": "https://static.fnac-static.com/multimedia/Images/FR/MDM/cf/17/cb/13309903/1540-1/tsp20191220191608/PC-Portable-Gaming-MSI-GL65-9SD-069FR-Intel-Core-i7-15-6-8-Go-RAM-512-Go-D-Noir.jpg",
+      "quantiteInitiale": 23,
+      "quantiteActuel": 10
     }
+    
   ],
   "clients": [
     {
@@ -90,11 +91,47 @@
       "nomClient": "amine",
       "prenomClient": "akram",
       "statuClient": "on",
-      "photoClient": "assets/images/clients/client-2.jpg",
+      "photoClient": "https://edito.regionsjob.com/observatoire-metier/wp-content/uploads/sites/4/2015/11/agent-commercial.jpg",
       "teleClient": "0689787987",
       "mailClient": "laila@gmail.com",
       "adressClient": "675 Kamilia ",
       "villeClient": "rabat"
+    },
+    {
+      "id": 2,
+      "nomClient": "yassine",
+      "prenomClient": "akrami",
+      "statuClient": "on",
+      "photoClient": "https://edito.regionsjob.com/observatoire-metier/wp-content/uploads/sites/4/2015/11/agent-commercial.jpg",
+      "teleClient": "068685786",
+      "mailClient": "yasiine@gmail.com",
+      "adressClient": "675 mansour meknes ",
+      "villeClient": "meknes"
+    },
+    {
+      "id": 1,
+      "nomClient": "reda",
+      "prenomClient": "talyani",
+      "statuClient": "on",
+      "photoClient": "https://edito.regionsjob.com/observatoire-metier/wp-content/uploads/sites/4/2015/11/agent-commercial.jpg",
+      "teleClient": "0667567576",
+      "mailClient": "reda@gmail.com",
+      "adressClient": "675 Kamilia ",
+      "villeClient": "casablannca"
     }
+  ],
+  "fournisseurs": [
+    {
+      "id": 1,
+      "nomFournisseur": "amine",
+      "nomCourtFournisseur": "akram",
+      "villeFournisseur": "meknes",
+      "adressFournisseur": "678 marjane 1",
+      "teleFixFournisseur": "0689787987",
+      "teleMobileFournisseur": "laila@gmail.com",
+      "faxFournisseur": "05765975764",
+      "maiFournisseur": "rabat"
+    }
+ 
   ]
 }

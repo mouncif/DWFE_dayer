@@ -1,1 +1,35 @@
-<p>fournisseur works!</p>
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">nom </th>
+        <th scope="col"> nom court </th>
+        <th scope="col">ville  </th>
+        <th scope="col">tele fix</th>
+        <th scope="col">tele mobile</th>
+        <th scope="col">mail </th>
+        <th scope="col">Actions</th>
+
+    </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let fournisseur of listFournisseurs">
+        <td>{{fournisseur.nomFournisseur}}</td>
+        <td>{{fournisseur.nomCourtFournisseur}}</td>
+        <td>{{fournisseur.villeFournisseur}}</td>
+        <td>{{fournisseur.teleFixFournisseur}}</td>
+        <td>{{fournisseur.teleMobileFournisseur}}</td>
+        <td>{{fournisseur.maiFournisseur}}</td>
+
+        <td>
+             <a class="edit" (click)="onEdit(fournisseur)"  title="Edit" data-toggle="tooltip">
+               <i class="fa fa-edit"></i>
+              </a>
+              &nbsp;&nbsp;
+             <a class="delete" (click)="ondelete(fournisseur.id)"  title="Delete" data-toggle="tooltip">
+              <i class="fa fa-trash" aria-hidden="true"></i>
+            </a>
+        </td>
+      </tr>
+      
+    </tbody>
+  </table>

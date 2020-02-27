@@ -1,4 +1,4 @@
-export interface Client {
+export interface Utilisateur {
     id?: number;
     profilUser: string;
     dateCreaUser: string;

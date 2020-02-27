@@ -4,9 +4,11 @@
         <th scope="col">nom Client</th>
         <th scope="col"> prenom Client</th>
         <th scope="col">statu Client </th>
-        <th scope="col">photo Client</th>
         <th scope="col">tele Client</th>
         <th scope="col">mail Client</th>
+        <th scope="col">photo Client</th>
+        <th scope="col">Actions</th>
+
     </tr>
     </thead>
     <tbody>
@@ -14,9 +16,10 @@
         <td>{{client.nomClient}}</td>
         <td>{{client.prenomClient}}</td>
         <td>{{client.statuClient}}</td>
-        <td><img src="{{client.photoClient}}"/> </td>
         <td>{{client.teleClient}}</td>
         <td>{{client.mailClient}}</td>
+        <td><img src="{{client.photoClient}}" height="55px"/> </td>
+
         <td>
              <a class="edit" (click)="onEdit(client)"  title="Edit" data-toggle="tooltip">
                <i class="fa fa-edit"></i>
