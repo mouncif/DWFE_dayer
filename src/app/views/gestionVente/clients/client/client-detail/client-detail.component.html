@@ -6,17 +6,13 @@
         <input type="hidden" formControlName="id">
 
         <label for="prenomClient">Prenom de client</label>
-        <input type="text" formControlName="prenomClient" class="form-control" [ngClass]="{ 'is-invalid': submitted && service.form.prenomClient.errors }"  placeholder="Prenom de client"/>
-        <div *ngIf="submitted && service.form.prenomClient.errors" class="invalid-feedback">
-          <div *ngIf="service.form.prenomClient.errors.required">Product name is required</div>
-      </div>
+        <input type="text" formControlName="prenomClient" class="form-control"  placeholder="Prenom de client"/>
+       
       </div>
       <div class="form-group col-md-6">
         <label for="nomClient">Nom de client</label>
-        <input type="text" class="form-control" formControlName="nomClient" [ngClass]="{ 'is-invalid': submitted && service.form.controls['nomClient'].errors }"   placeholder="Saisir le nom de client"/>
-        <div *ngIf="submitted && service.form.controls['nomClient'].errors" class="invalid-feedback">
-          <div *ngIf="service.form.controls['nomClient'].errors.required">Client Name is required</div>
-      </div>
+        <input type="text" class="form-control" formControlName="nomClient" placeholder="Saisir le nom de client"/>
+     
       </div>
     </div>
     <div class="form-row">
@@ -57,8 +53,8 @@
      </div>
   
 
-  <button [disabled]="loading" class="btn btn-primary">
-      <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+  <button  class="btn btn-primary">
+      <span  class="spinner-border spinner-border-sm mr-1"></span>
       Save
   </button>
       &nbsp;&nbsp;
