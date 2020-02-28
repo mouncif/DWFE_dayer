@@ -56,8 +56,8 @@
       "seuilMax": 13,
       "uniteProduit": "Kg",
       "imageProduit": "https://static.fnac-static.com/multimedia/Images/FR/MDM/cf/17/cb/13309903/1540-1/tsp20191220191608/PC-Portable-Gaming-MSI-GL65-9SD-069FR-Intel-Core-i7-15-6-8-Go-RAM-512-Go-D-Noir.jpg",
-      "quantiteInitiale": 13,
-      "quantiteActuel": 8
+      "quantiteInitiale": 1111,
+      "quantiteActuel": "12"
     },
     {
       "id": 3,
@@ -66,58 +66,46 @@
       "prixBase": "392.00",
       "prixVente": "700.00",
       "seuilMax": 10,
-      "uniteProduit": "Kg",
+      "uniteProduit": "Lettre",
       "imageProduit": "https://static.fnac-static.com/multimedia/Images/FR/MDM/cf/17/cb/13309903/1541-2/tsp20191220191608/PC-Portable-Gaming-MSI-GL65-9SD-069FR-Intel-Core-i7-15-6-8-Go-RAM-512-Go-D-Noir.jpg",
       "quantiteInitiale": 20,
       "quantiteActuel": 18
     },
     {
-      "id": 2,
-      "nomProduit": "INWI NEW Router  G6876",
-      "nomCourtProduit": "inwR",
-      "prixBase": "112.00",
-      "prixVente": "190.00",
-      "seuilMax": 22,
-      "uniteProduit": "Kg",
-      "imageProduit": "https://static.fnac-static.com/multimedia/Images/FR/MDM/cf/17/cb/13309903/1540-1/tsp20191220191608/PC-Portable-Gaming-MSI-GL65-9SD-069FR-Intel-Core-i7-15-6-8-Go-RAM-512-Go-D-Noir.jpg",
-      "quantiteInitiale": 23,
-      "quantiteActuel": 10
+      "id": 4,
+      "nomProduit": "sac pour les femmes",
+      "nomCourtProduit": "Nouveau sac",
+      "prixBase": "",
+      "prixVente": 100,
+      "seuilMax": 20,
+      "uniteProduit": "Lettre",
+      "imageProduit": "https://images.vinted.net/thumbs/f800/0275f_6bNvvQq8UyDbw5crgDwKxoQr.jpeg?1571858262-a010508bd79ca4dd2c824d2b45c2b18bf0aaa4ee",
+      "quantiteInitiale": 120,
+      "quantiteActuel": "120"
     }
-    
   ],
   "clients": [
     {
       "id": 1,
-      "nomClient": "amine",
-      "prenomClient": "akram",
-      "statuClient": "on",
-      "photoClient": "https://edito.regionsjob.com/observatoire-metier/wp-content/uploads/sites/4/2015/11/agent-commercial.jpg",
-      "teleClient": "0689787987",
-      "mailClient": "laila@gmail.com",
-      "adressClient": "675 Kamilia ",
-      "villeClient": "rabat"
-    },
-    {
-      "id": 2,
-      "nomClient": "yassine",
-      "prenomClient": "akrami",
-      "statuClient": "on",
-      "photoClient": "https://edito.regionsjob.com/observatoire-metier/wp-content/uploads/sites/4/2015/11/agent-commercial.jpg",
-      "teleClient": "068685786",
-      "mailClient": "yasiine@gmail.com",
-      "adressClient": "675 mansour meknes ",
+      "nomClient": "Dayr",
+      "prenomClient": "Hamza",
+      "statusClient": "On",
+      "teleClient": "067578687687",
+      "photoClient": "https://media-exp1.licdn.com/dms/image/C4D03AQFEkeeyG-HL0w/profile-displayphoto-shrink_200_200/0?e=1588204800&v=beta&t=T_F3cDnSJiVH7jBwgUlqhbMe_7q1BwrQFGElM1P_pIo",
+      "mailClient": "hamza.dayr@gmail.com",
+      "adressClient": "657 avenue hassan 2 ",
       "villeClient": "meknes"
     },
     {
-      "id": 1,
-      "nomClient": "reda",
-      "prenomClient": "talyani",
-      "statuClient": "on",
-      "photoClient": "https://edito.regionsjob.com/observatoire-metier/wp-content/uploads/sites/4/2015/11/agent-commercial.jpg",
-      "teleClient": "0667567576",
-      "mailClient": "reda@gmail.com",
-      "adressClient": "675 Kamilia ",
-      "villeClient": "casablannca"
+      "id": 2,
+      "nomClient": "Chahramane",
+      "prenomClient": "Yassine",
+      "statusClient": "On",
+      "teleClient": "06786786786",
+      "photoClient": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Vinfast-D.Beckham-cropped.jpg",
+      "mailClient": "yassine@chahramane.com",
+      "adressClient": "5164 Marjane 2",
+      "villeClient": " Meknes"
     }
   ],
   "fournisseurs": [
@@ -132,6 +120,5 @@
       "faxFournisseur": "05765975764",
       "maiFournisseur": "rabat"
     }
- 
   ]
 }

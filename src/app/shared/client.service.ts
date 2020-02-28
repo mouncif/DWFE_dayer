@@ -15,7 +15,8 @@ export class ClientService {
   form: FormGroup = new FormGroup({
     id: new FormControl(null),
     nomClient: new FormControl('', Validators.required),
-    statuClient: new FormControl(''),
+    prenomClient: new FormControl('', Validators.required),
+    statusClient: new FormControl('On'),
     teleClient: new FormControl(''),
     photoClient: new FormControl(''),
     mailClient: new FormControl('', Validators.email),
@@ -34,7 +35,7 @@ export class ClientService {
       id: null,
       nomClient: '',
       prenomClient: '',
-      statuClient: '',
+      statusClient : '',
       photoClient: '',
       teleClient: '',
       mailClient: '',

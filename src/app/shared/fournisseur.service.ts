@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Fournisseur } from '../models/Fournisseur.model';
+import { Fournisseur } from '../models/fournisseur.model';
 import { FormGroup, FormControl, Validators } from "@angular/forms";
 
 

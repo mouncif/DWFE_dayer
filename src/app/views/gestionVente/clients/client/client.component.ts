@@ -35,7 +35,8 @@ export class ClientComponent implements OnInit {
   onEdit(client)
   {
     this.service.setClient(client);
-    this.rout.navigateByUrl("/detail-client");
+    this.rout.navigateByUrl("/client-detail");
+    console.log("hk");
   }
 
 }

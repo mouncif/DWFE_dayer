@@ -1,3 +1,8 @@
+<h1 class="display-2">Liste des Clients</h1>
+
+<button type="button" class="btn btn-primary" routerLink="/client-detail">Nouveau Client</button>
+<br><br>
+
 <table class="table table-striped">
     <thead>
       <tr>
@@ -15,7 +20,7 @@
       <tr *ngFor="let client of listClients">
         <td>{{client.nomClient}}</td>
         <td>{{client.prenomClient}}</td>
-        <td>{{client.statuClient}}</td>
+        <td>{{client.statusClient}}</td>
         <td>{{client.teleClient}}</td>
         <td>{{client.mailClient}}</td>
         <td><img src="{{client.photoClient}}" height="55px"/> </td>

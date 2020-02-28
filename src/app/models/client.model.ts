@@ -2,7 +2,7 @@ export interface Client {
     id?: number;
     nomClient: string;
     prenomClient: string;
-    statuClient: string;
+    statusClient: string;
     photoClient: string;
     teleClient: string;
     mailClient: string;

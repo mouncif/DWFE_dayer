@@ -8,13 +8,17 @@ import { FournisseurComponent } from './views/gestionVente/fournisseurs/fourniss
 import { ClientComponent } from './views/gestionVente/clients/client/client.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { ProduitDetailComponent } from './views/gestionVente/produits/produit/produit-detail/produit-detail.component';
+import { ClientDetailComponent } from './views/gestionVente/clients/client/client-detail/client-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProduitComponent,
     FournisseurComponent,
-    ClientComponent
+    ClientComponent,
+    ProduitDetailComponent,
+    ClientDetailComponent
   ],
   imports: [
     BrowserModule,

@@ -34,7 +34,7 @@ export class ProduitComponent implements OnInit {
   onEdit(produit)
   {
     this.service.setProduit(produit);
-    this.rout.navigateByUrl("/detail-produit");
+    this.rout.navigateByUrl("/produit-detail");
   }
 
 }

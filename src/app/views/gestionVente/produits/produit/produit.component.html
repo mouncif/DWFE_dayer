@@ -1,9 +1,12 @@
+<h1 class="display-2">Liste des produits</h1>
+
+<button type="button" class="btn btn-primary" routerLink="/produit-detail">Nouveau Produit</button>
+<br><br>
 <table class="table table-striped">
-    <thead>
+    <thead> 
       <tr>
         <th scope="col">libellé</th>
         <th scope="col">libellé court</th>
-        <th scope="col">prix base </th>
         <th scope="col">prix vente </th>
         <th scope="col">seuil max</th>
         <th scope="col">unité</th>
@@ -17,7 +20,6 @@
       <tr *ngFor="let produit of listProduits">
         <td>{{produit.nomProduit}}</td>
         <td>{{produit.nomCourtProduit}}</td>
-        <td>{{produit.prixBase}}</td>
         <td>{{produit.prixVente}}</td>
         <td>{{produit.seuilMax}}</td>
         <td>{{produit.uniteProduit}}</td>
