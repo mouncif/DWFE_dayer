@@ -111,14 +111,14 @@
   "fournisseurs": [
     {
       "id": 1,
-      "nomFournisseur": "amine",
-      "nomCourtFournisseur": "akram",
+      "nomFournisseur": "livreur chaussure",
+      "nomCourtFournisseur": "livC",
       "villeFournisseur": "meknes",
       "adressFournisseur": "678 marjane 1",
       "teleFixFournisseur": "0689787987",
       "teleMobileFournisseur": "laila@gmail.com",
       "faxFournisseur": "05765975764",
-      "maiFournisseur": "rabat"
+      "maiFournisseur": "rabat@gmail.com"
     }
   ]
 }

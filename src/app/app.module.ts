@@ -10,6 +10,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { ProduitDetailComponent } from './views/gestionVente/produits/produit/produit-detail/produit-detail.component';
 import { ClientDetailComponent } from './views/gestionVente/clients/client/client-detail/client-detail.component';
+import { FournisseurDetailComponent } from './views/gestionVente/fournisseurs/fournisseur/fournisseur-detail/fournisseur-detail.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ClientDetailComponent } from './views/gestionVente/clients/client/clien
     FournisseurComponent,
     ClientComponent,
     ProduitDetailComponent,
-    ClientDetailComponent
+    ClientDetailComponent,
+    FournisseurDetailComponent
   ],
   imports: [
     BrowserModule,
