@@ -11,6 +11,9 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { ProduitDetailComponent } from './views/gestionVente/produits/produit/produit-detail/produit-detail.component';
 import { ClientDetailComponent } from './views/gestionVente/clients/client/client-detail/client-detail.component';
 import { FournisseurDetailComponent } from './views/gestionVente/fournisseurs/fournisseur/fournisseur-detail/fournisseur-detail.component';
+import { LoginComponent } from './views/gestionVente/login/login.component';
+import { ContentComponent } from './views/gestionVente/content/content.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +23,9 @@ import { FournisseurDetailComponent } from './views/gestionVente/fournisseurs/fo
     ClientComponent,
     ProduitDetailComponent,
     ClientDetailComponent,
-    FournisseurDetailComponent
+    FournisseurDetailComponent,
+    LoginComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

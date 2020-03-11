@@ -5,7 +5,10 @@ import { ClientComponent } from './views/gestionVente/clients/client/client.comp
 import { FournisseurComponent } from './views/gestionVente/fournisseurs/fournisseur/fournisseur.component';
 import { ProduitDetailComponent } from './views/gestionVente/produits/produit/produit-detail/produit-detail.component';
 import { ClientDetailComponent } from './views/gestionVente/clients/client/client-detail/client-detail.component';
-import { FournisseurDetailComponent } from './views/gestionVente/fournisseurs/fournisseur/fournisseur-detail/fournisseur-detail.component';''
+import { FournisseurDetailComponent } from './views/gestionVente/fournisseurs/fournisseur/fournisseur-detail/fournisseur-detail.component';
+import { LoginComponent } from './views/gestionVente/login/login.component';
+import { ContentComponent } from './views/gestionVente/content/content.component';
+
 
 
 const routes: Routes = [
@@ -15,7 +18,9 @@ const routes: Routes = [
   { path :"fournisseurs",component:FournisseurComponent},
   { path :"produit-detail",component:ProduitDetailComponent},
   { path :"client-detail",component:ClientDetailComponent},
+  { path :"content",component:ContentComponent},
   { path :"detail-fournisseur",component:FournisseurDetailComponent}
+
 
 ];
 
